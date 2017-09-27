@@ -1,0 +1,75 @@
+body {
+    padding-top: 54px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+.title-1 {
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1.1;
+  /*color: #fff;*/
+}
+
+header.masthead {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    border-bottom: .5px solid black;
+    border-top: .5px solid black;
+}
+
+header.masthead > .overlay {
+    padding: 5rem 0;
+    text-align: center;
+    background: lightgray;
+    height: 500px;
+}
+
+@media (min-width: 280px) {
+    header.masthead > .overlay {
+        height: 700px;
+    }
+    #profile-pic {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 767px) {
+    header.masthead > .overlay {
+        height: 575px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    header.masthead > .overlay {
+        padding: 10rem 0;
+        height: 500px;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.container.projects {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.overlay {
+  background-color: lightgray;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+h3 {
+  color: black;
+}
