@@ -1,0 +1,74 @@
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.header {
+    color: white;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: url("https://c1.staticflickr.com/3/2533/5818847796_61f45f416d_b.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#fswd {
+  color: white;
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+.container.projects {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.overlay {
+  background-color: lightgray;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+h3 {
+  color: black;
+}
