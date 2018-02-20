@@ -22,7 +22,8 @@
     <body>
 
 <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navb">
           <a class="navbar-brand" href="#">Aaron Sato</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,89 +31,104 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#about">About Me</a>
               <a class="nav-item nav-link" href="#projects">Projects</a>
+              <a class="nav-item nav-link" href="#about">About Me</a>
               <a class="nav-item nav-link disabled" href="#contact">Contact Me</a>
             </div>
           </div>
       </nav>
 
+
+
 <!-- Header -->
-        <header class="header" id="top">
+        <header class="header img-fluid" id="top">
             <div class="text-vertical-center">
+                <br>
+                <br>
+                <br>
+                <br>
                 <h1>Aaron Sato</h1>
-                <h3 id="fswd">Full Stack Web Developer</h3>
+                <h3 id="fswd">Web Developer</h3>
+                <img id="profile-pic" src="pics/profile_pic.jpg" alt="" height="200" width="200">
+
+                <br>
+                <br>
                 <br>
                 <!-- <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">Find Out More</a> -->
             </div>
         </header>
 
-<!-- About -->
-        <section id="about" class="about">
-            <div class="container text-center">
-                <h1>About Me</h1>
-                <img id="profile-pic" src="pics/profile_pic.jpg" alt="" height="200" width="200">
-                <br>
-                <br>
-                <p class="lead">A strong, driven and approachable Web Developer that is up for any challenge. My realistic outlook on life and knack for problem solving helps drive innovation and results.</p>
-            </div>
-        </section>
+
 
 <!-- Projects -->
-        <div class="overlay">
-            <div class="container projects">
-                <h1 id="projects">Projects</h1>
-                <br>
-                <div id="exampleAccordion" data-children=".item">
-                    <div class="item">
-                        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1"><h3>Guess That Emoji</h3></a>
-                        <div id="exampleAccordion1" class="collapse" role="tabpanel">
-                            <a href="https://2asato.github.io/project1/index.html"><img src="pics/guess_that_emoji.png" height="300" width="300"></a>
-                            <br>
-                            <br>
-                            <p>Built with HTML, CSS, JavaScript and jQuery. Hosted on Github pages.</p>
-                        </div>
+        <div class="container projects"  id="projects">
+            <h1>Projects</h1>
+            <br>
+            <div id="exampleAccordion" data-children=".item">
+                <div class="item">
+                    <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1"><h3>Guess That Emoji</h3></a>
+                    <div id="exampleAccordion1" class="collapse" role="tabpanel">
+                        <a href="https://2asato.github.io/project1/index.html"><img src="pics/guess_that_emoji.png" height="500" width="500"></a>
+                        <br>
+                        <br>
+                        <p>A simple quiz game to test your knowledge of various emojis.</p>
+                        <p>Built with HTML, CSS, JavaScript and jQuery. Hosted on Github pages.</p>
                     </div>
-                    <div class="item">
-                        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2" aria-expanded="false" aria-controls="exampleAccordion2"><h3>The Brewdex</h3></a>
-                        <div id="exampleAccordion2" class="collapse" role="tabpanel">
-                            <a href="http://thebrewdex.herokuapp.com/"><img src="pics/brewdex.png" height="300" width="300" ></a>
-                            <br>
-                            <br>
-                            <p>Built using Node.js, Mongoose, Express and EJS. Hosted on Heroku.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion3" aria-expanded="false" aria-controls="exampleAccordion2"><h3>The A-Team</h3></a>
-                        <div id="exampleAccordion3" class="collapse" role="tabpanel">
-                            <a href="https://a-team-thing.herokuapp.com/"><img src="pics/the_ateam.png" heigth="300" width="300" ></a>
-                            <br>
-                            <br>
-                            <p>MEAN stack app: Mongo, Express, Angular, Node consuming an API. Group project hosted on Heroku.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion4" aria-expanded="false" aria-controls="exampleAccordion2"><h3>Modus.</h3></a>
-                        <div id="exampleAccordion4" class="collapse" role="tabpanel">
-                            <a href="https://modus-app.herokuapp.com/"><img src="pics/modus.png" height="300" width="300" ></a>
-                            <br>
-                            <br>
-                            <p>Built using HTML, CSS, Javascript, Ruby on Rails, Node, Express, and JWT. Group project hosted on Heroku.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion5" aria-expanded="false" aria-controls="exampleAccordion2"><h3>The Diamond Club</h3></a>
-                        <div id="exampleAccordion5" class="collapse" role="tabpanel">
-                            <a href="https://thediamondclub.herokuapp.com/"><img src="pics/diamond_club.png" height="300" width="300" ></a>
-                            <br>
-                            <br>
-                            <p>Built using HTML, CSS, Javascript, Ruby on Rails, Node, and Express. Hosted on Heroku.</p>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
                 </div>
+                <div class="item">
+                    <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2" aria-expanded="false" aria-controls="exampleAccordion2"><h3>The Brewdex</h3></a>
+                    <div id="exampleAccordion2" class="collapse" role="tabpanel">
+                        <a href="http://thebrewdex.herokuapp.com/"><img src="pics/brewdex.png" height="500" width="500" ></a>
+                        <br>
+                        <br>
+                        <p>Share and find users favorite breweries and their beers.</p>
+                        <p>Built using Node.js, Mongoose, Express and EJS. Hosted on Heroku.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion3" aria-expanded="false" aria-controls="exampleAccordion2"><h3>The A-Team</h3></a>
+                    <div id="exampleAccordion3" class="collapse" role="tabpanel">
+                        <a href="https://a-team-thing.herokuapp.com/"><img src="pics/the_ateam.png" heigth="500" width="500" ></a>
+                        <br>
+                        <br>
+                        <p>An index relating to the A-Team TV series which allows the user to query famous quotes, episode information, and character information.</p>
+                        <p>MEAN stack app: Mongo, Express, Angular, Node consuming an API. Group project hosted on Heroku.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion4" aria-expanded="false" aria-controls="exampleAccordion2"><h3>Modus.</h3></a>
+                    <div id="exampleAccordion4" class="collapse" role="tabpanel">
+                        <a href="https://modus-app.herokuapp.com/"><img src="pics/modus.png" height="500" width="500" ></a>
+                        <br>
+                        <br>
+                        <p>Get 100 of the most similar songs by artist and song title. Consumes Last.fm API.</p>
+                        <p>Built using HTML, CSS, Javascript, Ruby on Rails, Node, Express, and JWT. Group project hosted on Heroku.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion5" aria-expanded="false" aria-controls="exampleAccordion2"><h3>The Diamond Club</h3></a>
+                    <div id="exampleAccordion5" class="collapse" role="tabpanel">
+                        <a href="https://thediamondclub.herokuapp.com/"><img src="pics/diamond_club.png" height="500" width="500" ></a>
+                        <br>
+                        <br>
+                        <p>Expose the diamond in the rough. Display your player or team profile to be viewed by scouts and recruiters.</p>
+                        <p>Built using HTML, CSS, Javascript, Ruby on Rails, Node, and Express. Hosted on Heroku.</p>
+                    </div>
+                </div>
+                <br>
+                <br>
             </div>
+        </div>
+
+<!-- About -->
+        <div class="overlay">
+            <section id="about" class="about">
+                <div class="container text-center">
+                    <h1>About Me</h1>
+                    <br>
+                    <p class="lead">A strong, driven and approachable Web Developer that is up for any challenge. My realistic outlook on life and knack for problem solving helps drive innovation and results.</p>
+                </div>
+            </section>
         </div>
         <br>
         <br>
@@ -122,7 +138,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-center">
-                        <h4><strong>Contact Me</strong></h4>
+                        <h1>Contact Me</h1>
                         <ul class="list-unstyled">
                             <li>
                                 <i class="fa fa-phone fa-fw"></i>
@@ -143,7 +159,7 @@
                                 <a href="https://www.linkedin.com/in/aarongsato/"><img src="pics/linkedin.png" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://drive.google.com/open?id=1l1046lAKUQixPm-auSIvhs9hVS33Tzmj"><img src="pics/professional-profile-with-image.png" alt=""></a>
+                                <a href="https://drive.google.com/open?id=1IqcakG1Q0i949hBdJ-73S58ZQhpo5jTa"><img src="pics/professional-profile-with-image.png" alt=""></a>
                             </li>
                         </ul>
                         <hr class="small">

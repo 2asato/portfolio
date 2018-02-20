@@ -62,6 +62,7 @@ header.masthead > .overlay {
 .container.projects {
   text-align: center;
   margin-top: 50px;
+  /*border-top: 3px solid black;*/
 }
 
 .overlay {
@@ -72,4 +73,8 @@ header.masthead > .overlay {
 
 h3 {
   color: black;
+}
+
+#navb {
+  border-bottom: 3px solid black;
 }
