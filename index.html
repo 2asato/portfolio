@@ -1,178 +1,332 @@
 <!DOCTYPE html>
-<html land="en">
+<html>
+  <head>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
 
-<!-- styles -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="bs.css">
-        <link rel="stylesheet" href="style.css">
+    <!-- bootstrap responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- bootstrap responsive end -->
 
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- css end -->
 
-<!-- scripts -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- font awesome end -->
 
-        <title>Aaron Sato</title>
-    </head>
+    <script src="app.js" charset="utf-8"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!-- bootstrap css end -->
 
-    <body>
+    <title></title>
+  </head>
+  <body>
 
-<!-- Navbar -->
+    <a id="top"></a>
 
-    <nav class="navbar navbar-expand-lg bg-light  navbar-light fixed-top text-uppercase" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Aaron Sato</a>
-            <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light nav-foot">
+      <a class="navbar-brand" href="#">
+        <font color='black'>&lt</font>
+        <font color='#f4426b' class="to-black">Aaron Sato</font>
+        <font color='black'>&gt</font>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link active" id="hover1" href="#about">
+              <font color='black'>&lt</font>
+              <font color='#f4426b' class="to-black">About</font>
+              <font color='black'>&gt</font>
+            </a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link active" id="hover2" href="#projects">
+              <font color='black'>&lt</font>
+              <font color='#f4426b' class="to-black">Projects</font>
+              <font color='black'>&gt</font>
+            </a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link active" id="hover3" href="#contact">
+              <font color='black'>&lt</font>
+              <font color='#f4426b' class="to-black">Contact</font>
+              <font color='black'>&gt</font>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
+    <!-- navbar end -->
 
-<!-- Header -->
-        <header class="header img-fluid" id="top">
-            <div class="text-vertical-center">
-                <br>
-                <br>
-                <br>
-                <br>
-                <img id="profile-pic" src="pics/profile_pic copy.jpg" alt="" height="200" width="200">
-                <h1>Aaron Sato</h1>
-                <h3 id="fswd">Web Developer</h3>
-                <br>
-                <br>
-            </div>
-        </header>
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid container-fluid header" id="main">
+      <div class="container" id="pic-header">
+        <img id="profile-pic" src="pics/profile_pic.jpg" alt="" height="200" width="200">
+        <h1 class="display-4">Aaron Sato</Aaron></h1>
+        <h3 class="lead">Web Developer</h3>
+        <ul class="list-inline" id="icon-list">
+          <li class="list-inline-item">
+            <a href="https://github.com/2asato" title="Github"><i class="fab fa-github fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/aarongsato/" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://drive.google.com/open?id=15_baaP6VtJa8Hb7QSsWOH1nOAs-hrrPh" title="Resume"><i class="fas fa-file-alt fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- jumbotron end -->
 
 
+    <!-- about -->
+    <a id="about"></a>
+    <div class="container" id="about-container">
+      <h3>
+        <span style='color: black'>&lt</span>
+        <span style='color: #f4426b'>About</span>
+        <span style='color: black'>&gt</span>
+      </h3>
+      <p id="about-line" style='color: black'>A strong, driven and approachable Web Developer that is up for any challenge. My realistic outlook on life and knack for problem solving helps drive innovation and results.</p>
+      <h3 class="close-right">
+        <span style='color: black'>&lt/</span>
+        <span style='color: #f4426b'>About</span>
+        <span style='color: black'>&gt</span>
+      </h3>
+    </div>
+    <!-- about end -->
 
-<!-- Projects -->
-        <div class="container projects"  id="projects">
-            <h1>Projects</h1>
-            <br>
-            <div id="exampleAccordion" data-children=".item">
-                <div class="item">
-                    <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1"><h3>Guess That Emoji</h3></a>
-                    <div id="exampleAccordion1" class="collapse" role="tabpanel">
-                        <a href="https://2asato.github.io/project1/index.html"><img src="pics/guess_that_emoji.png" height="500" width="500"></a>
-                        <br>
-                        <br>
-                        <p>A simple quiz game to test your knowledge of various emojis.</p>
-                        <p>Built with HTML, CSS, JavaScript and jQuery. Hosted on Github pages.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2" aria-expanded="false" aria-controls="exampleAccordion2"><h3>The Brewdex</h3></a>
-                    <div id="exampleAccordion2" class="collapse" role="tabpanel">
-                        <a href="http://thebrewdex.herokuapp.com/"><img src="pics/brewdex.png" height="500" width="500" ></a>
-                        <br>
-                        <br>
-                        <p>Share and find users favorite breweries and their beers.</p>
-                        <p>Built using Node.js, Mongoose, Express and EJS. Hosted on Heroku.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion3" aria-expanded="false" aria-controls="exampleAccordion2"><h3>The A-Team</h3></a>
-                    <div id="exampleAccordion3" class="collapse" role="tabpanel">
-                        <a href="https://a-team-thing.herokuapp.com/"><img src="pics/the_ateam.png" heigth="500" width="500" ></a>
-                        <br>
-                        <br>
-                        <p>An index relating to the A-Team TV series which allows the user to query famous quotes, episode information, and character information.</p>
-                        <p>MEAN stack app: Mongo, Express, Angular, Node consuming an API. Group project hosted on Heroku.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion4" aria-expanded="false" aria-controls="exampleAccordion2"><h3>Modus.</h3></a>
-                    <div id="exampleAccordion4" class="collapse" role="tabpanel">
-                        <a href="https://modus-app.herokuapp.com/"><img src="pics/modus.png" height="500" width="500" ></a>
-                        <br>
-                        <br>
-                        <p>Get 100 of the most similar songs by artist and song title. Consumes Last.fm API.</p>
-                        <p>Built using HTML, CSS, Javascript, Ruby on Rails, Node, Express, and JWT. Group project hosted on Heroku.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion5" aria-expanded="false" aria-controls="exampleAccordion2"><h3>The Diamond Club</h3></a>
-                    <div id="exampleAccordion5" class="collapse" role="tabpanel">
-                        <a href="https://thediamondclub.herokuapp.com/"><img src="pics/diamond_club.png" height="500" width="500" ></a>
-                        <br>
-                        <br>
-                        <p>Expose the diamond in the rough. Display your player or team profile to be viewed by scouts and recruiters.</p>
-                        <p>Built using HTML, CSS, Javascript, Ruby on Rails, Node, and Express. Hosted on Heroku.</p>
-                    </div>
-                </div>
-                <br>
-                <br>
-            </div>
-        </div>
-
-<!-- About -->
-        <div class="overlay">
-            <section id="about" class="about">
-                <div class="container text-center">
-                    <h1>About Me</h1>
-                    <br>
-                    <p class="lead">A strong, driven and approachable Web Developer that is up for any challenge. My realistic outlook on life and knack for problem solving helps drive innovation and results.</p>
-                </div>
-            </section>
-        </div>
-        <br>
-        <br>
-
-<!-- Footer -->
-        <footer id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 mx-auto text-center">
-                        <h1>Contact Me</h1>
-                        <ul class="list-unstyled">
-                            <li>
-                                <i class="fa fa-phone fa-fw"></i>
-                                <img src="pics/auricular-phone-symbol-in-a-circle.png" alt="">  (206) 779 - 1495
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope-o fa-fw"></i>
-                                <img src="pics/envelope.png" alt="">
-                                <a href="mailto:aarongsato@gmail.com">aarongsato@gmail.com</a>
-                            </li>
-                        </ul>
-                        <br>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <a href="https://github.com/2asato"><img src="pics/github-logo.png" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/in/aarongsato/"><img src="pics/linkedin.png" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://drive.google.com/open?id=15_baaP6VtJa8Hb7QSsWOH1nOAs-hrrPh"><img src="pics/professional-profile-with-image.png" alt=""></a>
-                            </li>
-                        </ul>
-                        <hr class="small">
-                    </div>
-                </div>
-            </div>
-            <i class="fa fa-chevron-up fa-fw fa-1x"></i>
+    <!-- projects -->
+    <a id="projects"></a>
+    <div class="container" id="projects-container">
+      <h3>
+        <span style='color: black'>&lt</span>
+        <span style='color: #f4426b'>Projects</span>
+        <span style='color: black'>&gt</span>
+      </h3>
+      <div class="row">
+        <!-- guess that emoji -->
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#emoji-modal">
+            <img class="card-img-top project-img" src="pics/guess_that_emoji.png" alt="">
           </a>
-        <!-- </footer> -->
+        </div>
+        <!-- emoji modal -->
+        <div class="modal fade" id="emoji-modal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Guess That Emoji</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>A simple quiz game to test your knowledge of various emojis.<br>Built with HTML, CSS, JavaScript and jQuery.<br>Hosted on Github pages.</p>
+              </div>
+              <div class="modal-footer">
+                <a class="modal-icons" href="https://github.com/2asato/2asato.github.io/tree/master/project1" title="Github"><i class="fab fa-github fa-2x"></i></a>
+                <a class="modal-icons" title="Live" href="https://2asato.github.io/project1/index.html"><img src="pics/if_free-15_463002.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- emoji modal end -->
+        <!-- guess that emoji end -->
 
-    </body>
+        <!-- brewdex -->
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#brewdex-modal"><img class="card-img-top project-img" src="pics/brewdex.png" alt=""></a>
+        </div>
+        <!-- brewdex modal -->
+        <div class="modal fade" id="brewdex-modal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Brewdex</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Share your favorite beers and breweries.<br>Built using Node.js, Mongoose, Express and EJS.<br>Hosted on Heroku.</p>
+              </div>
+              <div class="modal-footer">
+                <a class="modal-icons" href="https://github.com/2asato/project-2" title="Github"><i class="fab fa-github fa-2x"></i></a>
+                <a class="modal-icons" title="Live" href="http://thebrewdex.herokuapp.com/"><img src="pics/if_free-15_463002.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- brewdex modal end -->
+        <!-- brewdex end -->
 
+        <!-- ATeam -->
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#ateam-modal"><img class="card-img-top project-img" src="pics/the_ateam.png" alt=""></a>
+        </div>
+        <!-- ATeam modal -->
+        <div class="modal fade" id="ateam-modal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">The A-Team</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>An index relating to the A-Team TV series which allows the user to query famous quotes, episode information, and character information.<br>Built using, Mongoose, Express, Angular and Node consuming an API.<br>Hosted on Heroku.</p>
+              </div>
+              <div class="modal-footer">
+                <a class="modal-icons" href="https://github.com/2asato/a-team" title="Github"><i class="fab fa-github fa-2x"></i></a>
+                <a class="modal-icons" title="Live" href="https://a-team-thing.herokuapp.com/"><img src="pics/if_free-15_463002.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ATeam modal end -->
+        <!-- ATeam end -->
+
+        <!-- modus -->
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#modus-modal"><img class="card-img-top project-img" src="pics/modus.png" alt=""></a>
+        </div>
+        <!-- modus modal -->
+        <div class="modal fade" id="modus-modal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modus.</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Get 100 of the most similar songs by artist and song title. Consumes Last.fm API.<br>Built using HTML, CSS, Javascript, Ruby on Rails, Node, Express, and JWT. <br>Hosted on Heroku.</p>
+              </div>
+              <div class="modal-footer">
+                <a class="modal-icons" href="https://github.com/2asato/modus_app" title="Github"><i class="fab fa-github fa-2x"></i></a>
+                <a class="modal-icons" title="Live" href="https://modus-app.herokuapp.com/"><img src="pics/if_free-15_463002.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modus modal end -->
+        <!-- modus end -->
+
+        <!-- diamond club -->
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#dc-modal"><img class="card-img-top project-img" src="pics/diamond_club.png" alt=""></a>
+        </div>
+        <!-- diamond club modal -->
+        <div class="modal fade" id="dc-modal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">The Diamond Club</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Expose the diamond in the rough. Display your player or team profile to be viewed by scouts and recruiters.<br>Built using HTML, CSS, Javascript, Ruby on Rails, Node and Express.<br>Hosted on Heroku.</p>
+              </div>
+              <div class="modal-footer">
+                <a class="modal-icons" href="https://github.com/2asato/tdc_frontend" title="Github"><i class="fab fa-github fa-2x"></i></a>
+                <a class="modal-icons" title="Live" href="https://thediamondclub.herokuapp.com/"><img src="pics/if_free-15_463002.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- diamond club modal end -->
+        <!-- diamond club end -->
+
+        <!-- construction -->
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <img class="card-img-top project-img" src="pics/under-construction.jpg" alt="">
+        </div>
+        <!-- construction end -->
+
+      </div>
+      <h3 class="close-right">
+        <span style='color: black'>&lt/</span>
+        <span style='color: #f4426b'>Projects</span>
+        <span style='color: black'>&gt</span>
+      </h3>
+    </div>
+    <!-- projects end -->
+
+    <!-- contact -->
+    <a id="contact"></a>
+    <div class="container" id="contact-container">
+      <h3>
+        <span style='color: black'>&lt</span>
+        <span style='color: #f4426b'>Contact Me</span>
+        <span style='color: black'>&gt</span>
+      </h3>
+      <div class="container" id="contact-info" style="text-align: center">
+        <ul class="list-inline" id="contact-list">
+          <li class="list-inline-item">
+            <a href="mailto:aarongsato@gmail.com" title="Email"><i class="far fa-envelope fa-3x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/aarongsato/" title="LinkedIn"><i class="fab fa-linkedin fa-3x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/2asato" title="Github"><i class="fab fa-github fa-3x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/aarongsato" title="Twitter"><i class="fab fa-twitter fa-3x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://drive.google.com/open?id=15_baaP6VtJa8Hb7QSsWOH1nOAs-hrrPh" title="Resume"><i class="fas fa-file-alt fa-3x"></i></a>
+          </li>
+        </ul>
+      </div>
+      <h3 class="close-right">
+        <span style='color: black'>&lt/</span>
+        <span style='color: #f4426b'>Contact Me</span>
+        <span style='color: black'>&gt</span>
+      </h3>
+    </div>
+    <!-- contact end -->
+
+    <!-- footer -->
+      <footer class="page-footer font-small nav-foot" style="text-align: center" id="foot">
+        <p id="foot-text">
+          <span style='color: black'>&lt</span>
+          <span style='color: #f4426b'>Created by Aaron Sato</span>
+          <span style='color: black'>&gt</span>
+          <br>
+          <span style='color: black'>&lt</span>
+          <span style='color: #f4426b'>2018</span>
+          <span style='color: black'>&gt</span>
+        </p>
+      </footer>
+      <!-- footer end -->
+
+
+
+  <!-- bootstrap jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- bootstrap jquery end -->
+
+  <!-- bootstrap popper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <!-- bootstrap popper.js end -->
+
+  <!-- bootstrap javascript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  <!-- bootstrap javascript end -->
+
+  </body>
 </html>

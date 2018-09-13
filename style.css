@@ -1,74 +1,104 @@
 body {
-    padding-top: 54px;
-    font-family: 'Roboto Slab', serif;
+  font-family: monospace;
 }
 
-.title-1 {
-  font-size: 6rem;
-  font-weight: 300;
-  line-height: 1.1;
-  /*color: #fff;*/
+.nav-foot {
+  background-color: lightgrey;
 }
 
-header.masthead {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-size: 100% 100%;
-    border-bottom: .5px solid black;
-    border-top: .5px solid black;
-}
-
-header.masthead > .overlay {
-    padding: 5rem 0;
-    text-align: center;
-    background: lightgray;
-    height: 500px;
-}
-
-@media (min-width: 280px) {
-    header.masthead > .overlay {
-        height: 700px;
-    }
-    #profile-pic {
-        margin-top: 20px;
-    }
-}
-
-@media (min-width: 767px) {
-    header.masthead > .overlay {
-        height: 575px;
-    }
-}
-
-
-
-@media (min-width: 992px) {
-    header.masthead > .overlay {
-        padding: 10rem 0;
-        height: 500px;
-    }
-}
-
-@media (min-width: 992px) {
-    body {
-        padding-top: 56px;
-    }
-}
-
-.container.projects {
-  text-align: center;
-  margin-top: 50px;
-  /*border-top: 3px solid black;*/
-}
-
-.overlay {
-  background-color: lightgray;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-}
-
-h3 {
+.to-black:hover {
   color: black;
+}
+
+#main {
+  background-image: url("https://c.wallhere.com/photos/45/4f/1564x1080_px_Code_coding_color_Codes_computer_Computer_Screen_CSS_HTML-1295509.jpg!d");
+  height: 550px;
+
+  /*parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*parallax scrolling end*/
+
+  margin-top: 50px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#pic-header {
+  background-color: white;
+  max-width: 300px;
+  max-height: auto;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5%;
+  border: 1px solid grey;
+}
+
+#profile-pic {
+  margin-top: 25px;
+  border-radius: 50%;
+  filter: grayscale(50%);
+}
+
+#icon-list {
+  margin-bottom: 50px;
+}
+
+.fa-github, .fa-file-alt {
+  color: black;
+}
+
+.da-body {
+  margin-top: -35px;
+  background-color: black;
+}
+
+#about-container, #projects-container, #contact-container{
+  padding: 55px 0 0 0;
+}
+
+#about-line, .row, #contact-info {
+  padding: 10px 0;
+}
+
+.close-right {
+  text-align: right;
+}
+
+.portfolio-item {
+  padding: 20px 0;
+}
+
+.card-img-top {
+  width: 300px;
+  height: 200px;
+}
+
+.modal-icons {
+  margin: 0 auto;
+  padding-right: 10px;
+}
+
+#contact-list li {
+  padding-right: 20px;
+}
+
+#contact-list li:hover {
+  transform: scale(1.1);
+}
+
+.fa-envelope {
+  color: red;
+}
+
+#foot {
+  margin-top: 30px;
+  color: #f4426b;
+  padding-bottom: 5px;
+}
+
+#foot-text {
+  padding-top: 10px;
 }
