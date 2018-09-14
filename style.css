@@ -12,7 +12,7 @@ body {
 
 #main {
   background-image: url("https://c.wallhere.com/photos/45/4f/1564x1080_px_Code_coding_color_Codes_computer_Computer_Screen_CSS_HTML-1295509.jpg!d");
-  height: 550px;
+  height: 575px;
 
   /*parallax scrolling effect*/
   background-attachment: fixed;
@@ -30,7 +30,6 @@ body {
   background-color: white;
   max-width: 300px;
   max-height: auto;
-  margin: 0 auto;
   text-align: center;
   border-radius: 5%;
   border: 1px solid grey;
