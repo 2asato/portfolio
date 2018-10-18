@@ -1,10 +1,9 @@
 body {
   font-family: monospace;
+  overflow-x: hidden;
 }
-
-.nav-foot {
-  background-color: lightgrey;
-  border: 1px solid #47465E;
+.navbar  {
+  background-color: black;
 }
 
 .to-black:hover {
@@ -12,7 +11,8 @@ body {
 }
 
 #main {
-  background-image: url("https://c.wallhere.com/photos/45/4f/1564x1080_px_Code_coding_color_Codes_computer_Computer_Screen_CSS_HTML-1295509.jpg!d");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
   height: 760px;
 
   /*parallax scrolling effect*/
@@ -22,38 +22,38 @@ body {
   background-size: cover;
   /*parallax scrolling end*/
 
-  margin-top: 50px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  margin-bottom: 0px;
 }
 
-/*.main-stuff {
-  margin-top: 55px;
-  margin-bottom: -55px;
-}*/
+#main h1 {
+  font-size: 90px;
+}
+
+#main h2 {
+  font-size: 40px;
+}
 
 #pic-header {
-  background-color: white;
-  max-width: 300px;
   max-height: auto;
   text-align: center;
   border-radius: 5%;
-  border: 1px solid grey;
-  margin-top: 60px;
+  margin-top: 150px;
+  color: white;
 }
 
 #profile-pic {
-  margin-top: 25px;
-  border-radius: 50%;
+  border-radius: 45%;
   filter: grayscale(50%);
+  display: block;
+  margin: 35px auto;
 }
 
 #icon-list {
   margin-bottom: 50px;
 }
 
-.fa-github, .fa-file-alt {
-  color: black;
+.fa-github {
+  color: white;
 }
 
 .da-body {
@@ -63,20 +63,10 @@ body {
 
 #about-container, #projects-container, #skills-container, #contact-container{
   padding: 100px 5px;
-  /*border: 1px solid purple;*/
-  margin: 50px auto;
-  box-shadow: 13px 13px #47465E;
 }
 
 #about-container, #skills-container {
   background-color: lightgrey;
-  border: 1px solid #47465E;
-  border-radius: 10px;
-}
-
-#projects-container, #contact-container {
-  border: 1px solid #47465E;
-  border-radius: 5px;
 }
 
 #about-line, #project-pics, #contact-info, #skills-list {
@@ -87,17 +77,9 @@ body {
   margin: 0 90px;
 }
 
-.close-right {
-  text-align: right;
-}
-
 .portfolio-item {
   padding: 20px 0;
 }
-
-/*.portfolio-item:hover {
-  transform: scale(1.1);
-}*/
 
 .card-img-top {
   width: 300px;
@@ -124,10 +106,15 @@ body {
 #foot {
   color: #f4426b;
   padding-bottom: 5px;
+  background-color: lightgrey;
 }
 
 #foot-text {
   padding-top: 10px;
+}
+
+#fa-github-contact, .fa-file-alt{
+  color: black;
 }
 
 .modal-header {
@@ -143,6 +130,10 @@ body {
   text-align: center;
   list-style-type: none;
   color: #47465E;
+}
+
+#skills-list {
+  margin-right: 20px;
 }
 
 /*portfolio-itom bounce*/
