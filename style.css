@@ -60,6 +60,10 @@ body {
   margin-bottom: 50px;
 }
 
+#icon-list li:hover {
+  transform: scale(1.1);
+}
+
 .fa-github {
   color: white;
 }
