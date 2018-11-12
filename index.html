@@ -16,20 +16,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- font awesome end -->
 
-    <script src="app.js" charset="utf-8"></script>
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <!-- bootstrap css end -->
 
     <title>Aaron Sato</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#myNav">
 
     <a id="top"></a>
-
     <!-- navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light nav-foot">
-      <a class="navbar-brand" href="#">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-inverse nav-foot" id="myNav">
+      <a class="navbar-brand sliding-link" href="#" data-value="top">
         <font color='#f4426b' class="to-white">Aaron Sato</font>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,22 +36,22 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link active" id="hover1" href="#about">
+            <a class="nav-link active sliding-link" id="hover1" href="#about" data-value="about">
               <font color='#f4426b' class="to-white">About</font>
             </a>
           </li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link active" id="hover2" href="#projects">
+            <a class="nav-link active sliding-link" id="hover2" href="#projects" data-value="projects">
               <font color='#f4426b' class="to-white">Projects</font>
             </a>
           </li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link active" id="hover3" href="#skills">
+            <a class="nav-link active sliding-link" id="hover3" href="#skills" data-value="skills">
               <font color='#f4426b' class="to-white">Skills</font>
             </a>
           </li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link active" id="hover4" href="#contact">
+            <a class="nav-link active sliding-link" id="hover4" href="#contact" data-value="contact">
               <font color='#f4426b' class="to-white">Contact</font>
             </a>
           </li>
@@ -61,6 +59,8 @@
       </div>
     </nav>
     <!-- navbar end -->
+
+
 
     <!-- jumbotron -->
     <div class="jumbotron jumbotron-fluid container-fluid header" id="main">
@@ -80,7 +80,10 @@
     </div>
     <!-- jumbotron end -->
 
+
+    <div class="content">
     <!-- about -->
+
     <a id="about"></a>
     <div class="container-fluid" id="about-container">
       <!-- <h5>
@@ -350,6 +353,7 @@
       </h5> -->
     </div>
     <!-- contact end -->
+    </div>
 
     <!-- footer -->
       <footer class="page-footer font-small nav-foot" style="text-align: center" id="foot">
@@ -361,11 +365,13 @@
       </footer>
       <!-- footer end -->
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <!-- bootstrap jquery -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <!-- bootstrap jquery end -->
+
+
 
   <!-- bootstrap popper.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -374,6 +380,22 @@
   <!-- bootstrap javascript -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
   <!-- bootstrap javascript end -->
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="app.js"></script>
+
+
+
+
+
+
+
+
+
 
   </body>
 </html>
