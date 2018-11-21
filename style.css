@@ -1,7 +1,13 @@
 body {
   font-family: monospace;
   overflow-x: hidden;
+  position: relative;
 }
+
+/*.content {
+  scroll-behavior: smooth;
+}*/
+
 .navbar  {
   background-color: black;
 }
@@ -51,7 +57,7 @@ body {
 
 #profile-pic {
   border-radius: 50%;
-  filter: grayscale(50%);
+  filter: grayscale(25%);
   display: block;
   margin: 35px auto;
 }
@@ -73,11 +79,11 @@ body {
   background-color: black;
 }
 
-#about-container, #projects-container, #skills-container, #contact-container{
+#about-container, #projects-container, #skills-container, #twitter-container, #contact-container{
   padding: 100px 5px;
 }
 
-#about-container, #skills-container {
+#about-container, #skills-container, #contact-container {
   background-color: lightgrey;
 }
 
@@ -146,6 +152,11 @@ body {
 
 #skills-list {
   margin-right: 20px;
+}
+
+.twitter-center {
+  margin: 0 auto;
+  width: 45%;
 }
 
 /*portfolio-itom bounce*/
