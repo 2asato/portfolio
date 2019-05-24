@@ -1,5 +1,5 @@
 body {
-  font-family: 'Sunflower', sans-serif !important;
+  font-family: 'Sriracha', cursive !important;
   overflow-x: hidden;
   position: relative;
 }
@@ -45,6 +45,10 @@ body {
 
 #main h2 {
   font-size: 40px;
+}
+
+.lead {
+  font-family: 'Changa', sans-serif;
 }
 
 #pic-header {
