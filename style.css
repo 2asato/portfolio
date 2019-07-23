@@ -74,8 +74,12 @@ body {
   transform: scale(1.1);
 }
 
-.fa-github {
+.gh-white {
   color: white;
+}
+
+.fa-github {
+  color: black;
 }
 
 .da-body {
