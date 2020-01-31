@@ -25,8 +25,8 @@ body {
 }
 
 #main {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),  url("https://lh3.googleusercontent.com/proxy/HEXHJ7cnPg_APWlDeW7Vp4jQYWhHJP1GOPwF1YpzPg1mWpSchwXAwxRpySczidXzNkOzwD8r3JlKVZfoH-b5nh8F_y6sf6hcgzsTFQo");
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("https://lh3.googleusercontent.com/proxy/HEXHJ7cnPg_APWlDeW7Vp4jQYWhHJP1GOPwF1YpzPg1mWpSchwXAwxRpySczidXzNkOzwD8r3JlKVZfoH-b5nh8F_y6sf6hcgzsTFQo");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
   height: 760px;
 
   /*parallax scrolling effect*/
