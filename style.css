@@ -4,6 +4,10 @@ body {
   position: relative;
 }
 
+.content {
+  scroll-behavior: smooth;
+}
+
 .raleway {
   font-family: 'Raleway', sans-serif !important;
 }
