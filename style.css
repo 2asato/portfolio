@@ -1,177 +1,148 @@
 body {
-  font-family: 'Sriracha', cursive !important;
+  font-family: 'Roboto Slab', serif !important;
   overflow-x: hidden;
   position: relative;
 }
 
-/*.content {
-  scroll-behavior: smooth;
-}*/
-
-.navbar  {
-  background-color: black;
+.raleway {
+  font-family: 'Raleway', sans-serif !important;
 }
 
-.navbar-toggler-icon {
-  background-color: #f4426b !important;
+.view {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left-bottom, from(rgba(0,0,0,0.3)), to(rgba(0,0,0,0.3))), url('pics/shunya-koide-7svli__kLRk-unsplash.jpg'); 
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('pics/shunya-koide-7svli__kLRk-unsplash.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+  /* background-attachment: fixed; */
+  margin-bottom: 100px;
+  box-shadow: 5px 10px 25px 5px darkgrey !important;
 }
 
-.nav-item {
-  padding-right: 15px;
+.fab, .fas, .far {
+  color: black;
 }
 
-.to-white:hover {
-  color: white;
-}
-
-#main {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
-  height: 760px;
-
-  /*parallax scrolling effect*/
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /*parallax scrolling end*/
-
-  margin-bottom: 0px;
-}
-
-#main h1 {
-  font-size: 90px;
-}
-
-#main h2 {
-  font-size: 40px;
-}
-
-.lead {
-  font-family: 'Changa', sans-serif;
-}
-
-#pic-header {
-  max-height: auto;
-  text-align: center;
-  border-radius: 5%;
-  margin-top: 150px;
-  color: white;
-}
-
-#profile-pic {
-  border-radius: 50%;
-  filter: grayscale(25%);
-  display: block;
-  margin: 35px auto;
-}
-
-#icon-list {
-  margin-bottom: 50px;
+#icon-list li {
+  font-size: 1.5em !important;
 }
 
 #icon-list li:hover {
   transform: scale(1.1);
 }
 
-.fa-github.gh-white {
-  color: white;
-}
-
-.fa-github {
-  color: black;
-}
-
-.da-body {
-  margin-top: -35px;
-  background-color: black;
-}
-
-#about-container, #projects-container, #skills-container, #twitter-container, #contact-container{
-  padding: 100px 5px;
-}
-
-#about-container, #skills-container {
-  background-color: lightgrey;
-}
-
-#about-line, #project-pics, #contact-info, #skills-list {
-  padding: 20px 0;
-}
-
-#about-line, .row {
-  margin: 0 90px;
-}
-
-
-
-.portfolio-item {
-  padding: 20px 0;
-}
-
-.card-img-top {
-  width: 300px;
-  height: 200px;
-}
-
-.modal-icons {
-  margin: 0 auto;
-  padding-right: 10px;
-}
-
-#contact-list li {
-  padding-right: 20px;
-}
-
-#contact-list li:hover {
+.project-img:hover {
   transform: scale(1.1);
 }
 
-.fa-envelope {
-  color: red;
+.modal-header {
+  background-color: green;
 }
 
-#foot {
+.close {
+  color: white !important;
+}
+
+.modal-body p, .about-text, .skills-list {
+  font-size: 1rem !important;
+}
+
+
+#profile-pic {
+  /* border-radius: 50%; */
+  filter: grayscale(25%);
+  display: block;
+  margin: auto;
+  /* box-shadow: 5px 10px 5px darkgrey !important; */
+}
+
+.twitter-container {
+  /* box-shadow: 5px 10px 5px darkgrey !important; */
+}
+
+
+
+
+.section-container {
+  padding: 100px 5px;
+  box-shadow: 5px 10px 25px 5px darkgrey !important;
+}
+
+
+/* #about-container, #skills-container {
+  background-color: lightgrey;
+} */
+
+/* #about-line, #project-pics, #contact-info, #skills-list {
+  padding: 20px 0;
+} */
+
+/* #about-line, .row {
+  margin: 0 90px;
+} */
+
+/* .portfolio-item {
+  padding: 20px 0;
+} */
+
+/* .card-img-top {
+  width: 100% !important;
+  height: 250px !important;
+  object-fit: cover !important;
+} */
+
+/* .modal-icons {
+  margin: 0 auto;
+  padding-right: 10px;
+} */
+
+/* #contact-list li {
+  padding-right: 20px;
+} */
+
+/* #contact-list li:hover {
+  transform: scale(1.1);
+} */
+
+
+
+/* #foot {
   color: #f4426b;
   padding-bottom: 5px;
   background-color: black;
-}
+} */
 
-#foot-text {
+/* #foot-text {
   padding-top: 10px;
-}
+} */
 
-#fa-github-contact, .fa-file-alt{
-  color: black;
-}
 
-.modal-header {
-  background-color: #f4426b;
-}
 
-.skills-col-title {
+
+/* .skills-col-title {
   text-align: center;
   margin-left: 35px;
-}
+} */
 
-.skills-list {
+/* .skills-list {
   text-align: center;
   list-style-type: none;
   color: #47465E;
-}
+} */
 
-#skills-list {
+/* #skills-list {
   margin-right: 20px;
-}
+} */
 
-.twitter-center {
+/* .twitter-center {
   margin: 0 auto;
   width: 45%;
-}
+} */
 
 /*portfolio-itom bounce*/
 /* Wobble Vertical via hover.css*/
-@-webkit-keyframes hvr-wobble-vertical {
+/* @-webkit-keyframes hvr-wobble-vertical {
   16.65% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
@@ -241,7 +212,7 @@ body {
   animation-iteration-count: 1;
 }
 
-hides scrollbar
+h
 ::-webkit-scrollbar {
 display: none;
-}
+} */
