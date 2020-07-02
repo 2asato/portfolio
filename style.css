@@ -17,7 +17,7 @@ ul.navbar-nav a {
 }
 
 ul.navbar-nav a:hover {
-  color: darkgrey !important;
+  transform: scale(1.1);
   }
 
 .view {
